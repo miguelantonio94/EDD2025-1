@@ -1,4 +1,4 @@
-# Taller No 1: Manejo de Memoria Dinámica y Arreglos FIFO en C
+# Taller No 1: Manejo de Memoria Dinámica y Arreglos FIFO en C 
 
 ## Objetivo del taller:
 Aplicar estructuras dinámicas y manejo de memoria con `malloc` y `free`, a través del desarrollo de un sistema de gestión de elementos usando arreglos tipo FIFO con el manejo de apuntadores para enlaces simples.
