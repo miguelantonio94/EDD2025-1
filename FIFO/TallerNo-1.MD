@@ -7,6 +7,16 @@ Aplicar estructuras dinámicas y manejo de memoria con `malloc` y `free`, a trav
 
 ## Contexto del reto:
 Estás diseñando una aplicación para gestionar una lista de productos en una bodega. Cada producto se representa como un nodo en una lista enlazada. El sistema debe permitir al usuario **registrar, buscar, eliminar, mostrar y contar los productos registrados**.
+---
+
+## Reglas para la entrega:
+1. **Maximo Dos Personas por Trabajo**
+2. **Su código no debe ser igual (o similar en logicas especificas a otro grupo)**
+3. **Subir su código al repositorio individual de cada uno**
+4. **La fecha limite para publicar en el repositorio es el dia martes 18 de marzo de 2025 a las 08:00 AM**
+5. **El código será revisado en la sección de clase. Todos los grupos deben venir.**
+6. **El uso de IA solo como referencia el código debe ser sustentado por cada persona al 100%**
+
 
 ---
 
@@ -26,23 +36,9 @@ Estás diseñando una aplicación para gestionar una lista de productos en una b
 
 5. **Contar productos registrados**
 
-6. **Liberar memoria al salir del sistema**
+6. **Modificar nombre del producto dado un ID**
+7. **Liberar memoria al salir del sistema**
 
----
-
-## Extras (Retadores – Puntos extra si los implementan):
-7. **Insertar producto en posición específica** (inicio, medio o final)
-8. **Ordenar productos por ID** (usando intercambio de datos, no punteros)
-9. **Modificar nombre del producto dado un ID**
-
----
-
-## Restricciones:
-- No usar `new`, `delete`, `std::vector` ni `std::string`.
-- Solo trabajar con arreglos de caracteres (`char nombre[30]`).
-- La memoria debe manejarse con `malloc` y `free`.
-
----
 
 ## Sugerencia de menú:
 1. Agregar producto  
@@ -50,19 +46,19 @@ Estás diseñando una aplicación para gestionar una lista de productos en una b
 3. Buscar producto  
 4. Eliminar producto  
 5. Contar productos  
-6. Salir  
+6. Modificar productos  
+7. Salir  
 
 ---
 
-## Evaluación sugerida del taller (si lo usas en clase):
+## Evaluación sugerida del taller (con puntuación):
 | **Criterio**                        | **Puntaje** |
 |-------------------------------------|-------------|
-| Implementación básica (1-5)         | 30 pts      |
-| Uso correcto de `malloc` y `free`   | 20 pts      |
-| Eliminación de nodo                 | 15 pts      |
-| Extras (modificación, ordenamiento, etc) | 20 pts      |
-| Buen manejo del código y comentarios| 15 pts      |
+| Agregar producto                    | 15 pts      |
+| Mostrar productos                   | 10 pts      |
+| Buscar producto                     | 10 pts      |
+| Eliminar producto (gestión correcta de memoria) | 35 pts      |
+| Contar productos                    | 10 pts      |
+| Modificar productos                 | 10 pts      |
+| Buen manejo del código y comentarios| 10 pts      |
 | **Total**                           | **100 pts** |
-
-
-
