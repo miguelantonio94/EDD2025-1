@@ -1,12 +1,12 @@
-# Taller Retador: Manejo de Memoria Dinámica y Listas Enlazadas en C
+# Taller No 1: Manejo de Memoria Dinámica y Arreglos FIFO en C
 
 ## Objetivo del taller:
-Aplicar estructuras dinámicas y manejo de memoria con `malloc` y `free`, a través del desarrollo de un sistema de gestión de elementos usando listas enlazadas simples.
+Aplicar estructuras dinámicas y manejo de memoria con `malloc` y `free`, a través del desarrollo de un sistema de gestión de elementos usando arreglos tipo FIFO con el manejo de apuntadores para enlaces simples.
 
 ---
 
 ## Contexto del reto:
-Estás diseñando una aplicación para gestionar una lista de productos en una bodega. Cada producto se representa como un nodo en una lista enlazada. El sistema debe permitir al usuario **registrar, buscar, eliminar, mostrar y contar los productos registrados**.
+Estás diseñando una aplicación para gestionar una lista de productos en una bodega. Cada producto se representa como un nodo. El sistema debe permitir al usuario **registrar, buscar, eliminar, mostrar y contar los productos registrados**.
 ---
 
 ## Reglas para la entrega:
